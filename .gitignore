@@ -7,3 +7,4 @@ checkpoint/*.pth.tr
 .python-version
 .venv/
 notebook/
+data/motion3d/
