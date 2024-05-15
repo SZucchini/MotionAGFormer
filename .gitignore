@@ -3,3 +3,6 @@
 *.pyc
 wandb
 checkpoint/*.pth.tr
+
+.python-version
+.venv/
