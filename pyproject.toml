@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "motionagformer"
+version = "0.1.0"
+description = ""
+authors = ["SZucchini <suzuki.tomohiro@g.sp.m.is.nagoya-u.ac.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "=3.8.18"
+torch = {version = "2.0.0", source = "torch_2.0_cu118"}
+scikit-image = "0.20.0"
+numba = "0.58.0"
+scipy = "1.9.0"
+tqdm = "^4.66.4"
+easydict = "^1.13"
+numpy = "1.24.0"
+timm = "0.6.11"
+pyyaml = "^6.0.1"
+matplotlib = "3.7.0"
+wandb = "^0.17.0"
+torchprofile = "^0.0.4"
+smplx = "^0.1.28"
+opencv-python = "^4.9.0.80"
+filterpy = "^1.4.5"
+yacs = "^0.1.8"
+
+
+[[tool.poetry.source]]
+name = "torch_2.0_cu118"
+url = "https://download.pytorch.org/whl/cu118"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

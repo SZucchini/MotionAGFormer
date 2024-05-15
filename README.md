@@ -10,12 +10,12 @@ This is the official PyTorch implementation of the paper "[MotionAGFormer: Enhan
 The project is developed under the following environment:
 - Python 3.8.10
 - PyTorch 2.0.0
-- CUDA 12.2
+- CUDA 11.8
 
 For installation of the project dependencies, please run:
 ```
 pip install -r requirements.txt
-``` 
+```
 ## Dataset
 ### Human3.6M
 #### Preprocessing
@@ -111,7 +111,7 @@ We thank the authors for releasing their codes.
 If you find our work useful for your project, please consider citing the paper:
 ```
 @inproceedings{motionagformer2024,
-  title     =   {MotionAGFormer: Enhancing 3D Human Pose Estimation with a Transformer-GCNFormer Network}, 
+  title     =   {MotionAGFormer: Enhancing 3D Human Pose Estimation with a Transformer-GCNFormer Network},
   author    =   {Soroush Mehraban, Vida Adeli, Babak Taati},
   booktitle =   {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
   year      =   {2024}
